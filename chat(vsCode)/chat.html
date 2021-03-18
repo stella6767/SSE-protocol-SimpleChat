@@ -21,13 +21,13 @@
         <div>알림:<span id="notify">1</span></div>
 
 
-        <div class="form-group mt-2 border" style="height: 300px;">
+        <div class="form-group mt-2 border" style="height: 300px; overflow: scroll; ">
             <div id="items">
 
             </div>
         </div>
         <form>
-            <div class="form-group d-flex">
+            <div class="form-group d-flex ">
                 <div>user1</div>
                 <input type="hidden" id="user" value="user1" />
                 <input type="text" class="form-control" placeholder="채팅을 입력하시오" id="comment">
@@ -81,6 +81,7 @@
         eventSource.onerror = error => {
             eventSource.close();
         };
+
 
 
     </script>
